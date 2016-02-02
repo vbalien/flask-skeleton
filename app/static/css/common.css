@@ -24,9 +24,10 @@ body
     border-spacing:0px;
     border:none;
     font-family:'Nanum Gothic',dotum,Helvetica,sans-serif;
+    font-size:14px;
 }
 
-body,h1,h2,h3,h4,input,select,button,textarea,a,li{font-size:14px;color : #333;}
+body,h1,h2,h3,h4,input,select,button,textarea,a,li{color : #333;}
 input, textarea, button, select{outline: none;color: #000;}
 img {border: none;}
 li{list-style: none;}

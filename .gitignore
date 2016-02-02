@@ -1,0 +1,17 @@
+.env
+.venv
+env
+venv
+temp
+tmp
+__pycahe__
+
+*.pyc
+*.sqlite
+*.coverage
+.DS_Store
+._.DS_Store
+env.sh
+migrations
+
+app/config/config.py

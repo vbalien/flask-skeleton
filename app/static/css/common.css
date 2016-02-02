@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    height:100%;
+    background-color : #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body
+{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    border-spacing:0px;
+    border:none;
+    font-family:'Nanum Gothic',dotum,Helvetica,sans-serif;
+}
+
+body,h1,h2,h3,h4,input,select,button,textarea,a,li{font-size:14px;color : #333;}
+input, textarea, button, select{outline: none;color: #000;}
+img {border: none;}
+li{list-style: none;}
+ul{margin : 0;padding : 0;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+li a:hover{text-decoration: none;}
+*::selection
+{
+    background: #8987b8;
+    color : #fff;
+}
+*::-moz-selection
+{
+    background: #8987b8;
+    color : #fff;
+}
+::-webkit-input-placeholder {font-size : 1em; color : #999; font-style : italic;}
+::-moz-placeholder {font-size : 1em; color : #999; font-style : italic;} /* firefox 19+ */
+:-ms-input-placeholder {font-size : 1em; color : #999; font-style : italic;} /* ie */
+input:-moz-placeholder {font-size : 1em; color : #999; font-style : italic;}
+/*
+/////////////////////////////////////////////////
+// TODO
+/////////////////////////////////////////////////
+*/

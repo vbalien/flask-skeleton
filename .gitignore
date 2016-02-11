@@ -4,7 +4,8 @@ env
 venv
 temp
 tmp
-__pycahe__
+__pycache__
+.cache
 
 *.pyc
 *.sqlite
@@ -13,5 +14,4 @@ __pycahe__
 ._.DS_Store
 env.sh
 migrations
-
-app/config/config.py
+node_modules/

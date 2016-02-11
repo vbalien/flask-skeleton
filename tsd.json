@@ -1,0 +1,8 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "./app/src/ts/typings",
+  "bundle": "./app/src/ts/typings/tsd.d.ts",
+  "installed": {}
+}

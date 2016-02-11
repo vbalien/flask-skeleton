@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from app.config.config import Config
+from app.views.main import main_blueprint
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
@@ -15,5 +16,4 @@ db = SQLAlchemy(app)
 
 
 # Blueprints
-from app.views.main import main_blueprint
 app.register_blueprint(main_blueprint)

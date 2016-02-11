@@ -1,0 +1,17 @@
+{
+  "name": "flask-skeleton",
+  "description": "A basic flask + typescript app skeleton",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/vbalien/flask-skeleton",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./app/static/lib",
+    "test",
+    "tests"
+  ]
+}
